@@ -53,7 +53,12 @@ impl<'a, 'b> interpreter::UserFunctionExecutor<interpreter::DummyUserError> for 
 		-> Result<Option<interpreter::RuntimeValue>, InterpreterError>
 	{
 		match name {
-			"_your_cool_method" => {
+
+            /*
+                This is where you handle all externals
+            */
+
+			"_your_cool_external" => {
 				panic!();
 			},
 			_ => {
