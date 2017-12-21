@@ -1,0 +1,7 @@
+[package]
+name = "parity-wasm-sample"
+version = "0.1.0"
+authors = ["NikVolf <nikvolf@gmail.com>"]
+
+[dependencies]
+parity-wasm = "0.15"
